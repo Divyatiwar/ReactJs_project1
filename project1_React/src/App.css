@@ -1,0 +1,108 @@
+* {
+  margin: 0; /*Remove default marigns from elements */
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(133, 228, 213);
+}
+
+button {
+  all: unset;
+  padding: 6px 32px;
+  background-color: rgb(9, 69, 69);
+  height: 50px;
+  width: 60px;
+  border-radius: 25px;
+  color: rgb(255, 224, 224);
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+/*Nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(240, 203, 203);
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  background-color: rgb(240, 203, 203);
+}
+
+.food-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+}
+.food h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+.food p {
+  font-weight: 1000;
+  color: black;
+  max-width: 400px;
+}
+
+.food-btn {
+  display: flex;
+  gap: 40px;
+}
+/*Text size inside button of order now and category */
+.food-btn button {
+  font-size: 23px;
+}
+.category-btn {
+  background: transparent;
+  color: black;
+  width: 90px;
+  border: 1px solid rgb(4, 24, 32);
+}
+/* burger and frenchfries button size fitting */
+.platform-images {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  gap: 80px;
+  margin-bottom: 20px;
+}
+/*Rounded images*/
+.platform-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(9, 69, 69);
+  background-color: rgb(240, 203, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px; /*This will round the corners of image container*/
+}
+
+.platform-image {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+/*Footer part*/
+.footer {
+  background-color: rgb(48, 93, 93);
+  color: rgb(230, 215, 215);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1280px;
+}
+.footer p {
+  margin: 10px 0;
+}
